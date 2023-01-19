@@ -1,0 +1,351 @@
+#nav {
+    display: grid;
+    width: 100%;
+    height: 65px;
+    grid-template-columns: 10% 20% 30% 11% 3% 3% 3% 10% 10%;
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+#nav h1 {
+    grid-column-start: 2;
+    margin: 0;
+    align-self: center;
+    text-align: start;
+    line-height: 10px;
+    vertical-align: middle;
+    font-family: 'Goudy Old Style';
+    font-size: 24px;
+    font-weight: 600;
+    color: #023047;
+}
+
+#nav form {
+    grid-column-start: 8;
+    width: fit-content;
+    justify-self: center;
+}
+
+#nav form button {
+    display: flex;
+    background-color: #ffffff00;
+    font-family: 'Goudy Old Style';
+    font-size: 22px;
+    font-weight: 600;
+    color: #023047;
+    border: none;
+    transition: 0.2s;
+    outline: none;
+
+    grid-column-start: 8;
+    height: 35px;
+    padding: 2px 6px;
+    align-items: center;
+    justify-items: center;
+}
+
+#nav form button:hover {
+    color: #023047e0;
+    border: 2px solid #023047e0;
+    transition: 0.1s;
+}
+
+#nav form button:focus {
+    background-color: #023047e0;
+    color: #ffffff;
+
+}
+
+#nav i {
+    display: inline-block;
+    justify-self: center;
+    color: #023047;
+}
+
+#icon1 {
+    grid-column-start: 5;
+    display: flex;
+    align-items: center;
+}
+
+#icon2 {
+    grid-column-start: 6;
+    display: flex;
+    align-items: center;
+}
+
+#icon3 {
+    grid-column-start: 7;
+    display: flex;
+    align-items: center;
+}
+
+#spanTertumpukNav {
+    display: grid;
+    width: 100%;
+    height: 65px;
+    background: rgb(2, 48, 71);
+    background: linear-gradient(90deg, rgba(2, 48, 71, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+#introCV {
+    width: 100%;
+    height: 300px;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 10% 50% 30% 10%;
+    grid-template-rows: 20% 60% 20%;
+    background: rgb(2, 48, 71);
+    background: linear-gradient(90deg, rgba(2, 48, 71, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+#introCV p {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    align-self: center;
+    font-family: 'Goudy Old Style';
+    font-size: 26px;
+    padding: 0 32% 0 0;
+    text-align: justify;
+}
+
+#mainCV {
+    display: block;
+
+}
+
+#personality {
+    display: grid;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    grid-template-rows: 150px 50px 150px 50px 200px;
+
+}
+
+#personality h2 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    font-family: 'Goudy Old Style';
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 6px 10px;
+    margin: 0;
+    color: #023047;
+    border: 2px solid #023047;
+}
+
+#personality h3 {
+    grid-row-start: 4;
+    text-align: center;
+    font-family: 'Goudy Old Style';
+    font-size: 24px;
+    background-color: #023047;
+    color: #ffffff;
+    margin: 0 6px;
+    align-self: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#personality p {
+    grid-row-start: 5;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+#personality img {
+    grid-row-start: 3;
+    justify-self: center;
+    align-self: center;
+}
+
+#personality #img1 {
+    grid-column-start: 2;
+}
+
+#personality #img2 {
+    grid-column-start: 3;
+}
+
+#personality #img3 {
+    grid-column-start: 4;
+}
+
+#personality #img4 {
+    grid-column-start: 5;
+}
+
+#h2_h3_1,
+#h2_p_1 {
+    grid-column-start: 2;
+}
+
+#h2_h3_2,
+#h2_p_2 {
+    grid-column-start: 3;
+}
+
+#h2_h3_3,
+#h2_p_3 {
+    grid-column-start: 4;
+}
+
+#h2_h3_4,
+#h2_p_4 {
+    grid-column-start: 5;
+}
+
+
+#aboutMe {
+    display: grid;
+    grid-template-columns: 10% 35% 10% 35% 10%;
+    grid-template-rows: 200px 100px 300px;
+}
+
+#aboutMe img {
+    margin: 0;
+    grid-column-start: 2;
+    width: 300px;
+    grid-row-start: 2;
+    justify-self: end;
+    border-radius: 1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#aboutMe h2 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    font-family: 'Goudy Old Style';
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 6px 10px;
+    margin: 0;
+    color: #023047;
+    border: 2px solid #023047;
+}
+
+#aboutMe p {
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+
+#career {
+    display: grid;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    grid-template-rows: 100px 150px 100px;
+    font-family: 'Goudy Old Style';
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#career_span {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: rgb(2, 48, 71);
+    background: linear-gradient(90deg, rgba(2, 48, 71, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    box-shadow: 8px 8px 0px -3px #023047ad;
+}
+
+#career h2 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    color: #ffffff;
+    align-self: center;
+    margin: 0;
+    text-align: center;
+}
+
+#career button {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 0px 10px;
+    margin: 0;
+    grid-column-start: 5;
+    grid-row-start: 2;
+    justify-self: center;
+    align-self: center;
+
+    background-color: #02304700;
+    color: #023047ae;
+    border: 2px solid #0230479e;
+    transition: 0.2s;
+    outline: none;
+    font-family: 'Goudy Old Style';
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+#career button:hover {
+
+    background-color: #0230479e;
+    color: #ffffffe2;
+    border: none;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+
+footer div {
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    padding-bottom: 3px;
+}
+
+footer div img {
+    width: 20px;
+}
+
+@media (max-width: 480px) {
+
+    #form,
+    #navatas {
+        visibility: hidden;
+    }
+
+    nav {
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    body {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    ol {
+        width: fit-content;
+        margin: 0;
+        text-align: start;
+    }
+
+    ul {
+        text-align: start;
+    }
+}
